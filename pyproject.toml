@@ -1,0 +1,18 @@
+[project]
+name = "zip-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+	"beautifulsoup4>=4.13.5"
+]
+
+[tool.uv]
+default-groups = ["dev"]
+
+[tool.uv.dependency-groups]
+dev = [
+	"mypy==1.17.1",
+	"ruff==0.12.12",
+]
